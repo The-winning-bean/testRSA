@@ -1,0 +1,24 @@
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected AMD Ryzen 7 8845HS w/ Radeon 780M Graphics
+detected L1 = 32768 bytes, L2 = 16777216 bytes, CL = 64 bytes
+measured cpu frequency ~= 3801.602460
+using 20 random witnesses for Rabin-Miller PRP checks
+
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, New random seeds: 590828327, 582393232
+
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, Processing expression: factor(1455925529734358105461406532259911790807347616464991065301847)
+
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, System/Build Info: 
+Using GMP-ECM 6.3, Powered by GMP 5.1.1
+cached 78498 primes. pmax = 999983
+detected AMD Ryzen 7 8845HS w/ Radeon 780M Graphics
+detected L1 = 32768 bytes, L2 = 16777216 bytes, CL = 64 bytes
+measured cpu frequency ~= 3788.178200
+using 20 random witnesses for Rabin-Miller PRP checks
+
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, New random seeds: 991435347, 821695100
+
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, Processing expression: factor(1455925529734358105461406532259911790807347616464991065301847)
+

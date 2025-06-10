@@ -1,0 +1,124 @@
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, 
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, ****************************
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, Starting factorization of 1455925529734358105461406532259911790807347616464991065301847
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, using pretesting plan: normal
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, no tune info: using qs/gnfs crossover of 95 digits
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, ****************************
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, rho: x^2 + 3, starting 1000 iterations on C61
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, rho: x^2 + 2, starting 1000 iterations on C61
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, rho: x^2 + 1, starting 1000 iterations on C61
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, pm1: starting B1 = 150K, B2 = gmp-ecm default on C61
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, current ECM pretesting depth: 0.00
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, scheduled 30 curves at B1=2000 toward target pretesting depth of 18.77
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, Finished 30 curves using Lenstra ECM method on C61 input, B1=2K, B2=gmp-ecm default
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, current ECM pretesting depth: 15.18
+05/28/25 21:39:24 v1.34.5 @ NUCBOX_K8PLUS, scheduled 55 curves at B1=11000 toward target pretesting depth of 18.77
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, Finished 55 curves using Lenstra ECM method on C61 input, B1=11K, B2=gmp-ecm default
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, final ECM pretested depth: 18.89
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, scheduler: switching to sieve method
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, starting SIQS on c61: 1455925529734358105461406532259911790807347616464991065301847
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, random seeds: 430286687, 2294069416
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, ==== sieve params ====
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, n = 61 digits, 201 bits
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, factor base: 3824 primes (max prime = 78623)
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, single large prime cutoff: 4717380 (60 * pmax)
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, allocating 2 large prime slices of factor base
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, buckets hold 2048 elements
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, using 32k sieve core
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, sieve interval: 4 blocks of size 32768
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, polynomial A has ~ 7 factors
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, using multiplier of 2
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, using SPV correction of 21 bits, starting at offset 35
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, using SSE2 for trial division and x64 sieve scanning
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, using SSE4.1 enabled 32k sieve core
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, using SSE2 for resieving 13-16 bit primes
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, trial factoring cutoff at 67 bits
+05/28/25 21:39:25 v1.34.5 @ NUCBOX_K8PLUS, ==== sieving started (1 thread) ====
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, trial division touched 225129 sieve locations out of 2369781760
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, 3893 relations found: 1937 full + 1956 from 18369 partial, using 9040 polys (143 A polys)
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, on average, sieving found 2.25 rels/poly and 15604.34 rels/sec
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, trial division touched 225129 sieve locations out of 2369781760
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, ==== post processing stage (msieve-1.38) ====
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, begin with 20306 relations
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, reduce to 5590 relations in 2 passes
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, recovered 5590 relations
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, recovered 4186 polynomials
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, freed 3 duplicate relations
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, attempting to build 3890 cycles
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, found 3890 cycles in 1 passes
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, distribution of cycle lengths:
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS,    length 1 : 1937
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS,    length 2 : 1953
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, largest cycle: 2 relations
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, matrix is 3824 x 3890 (0.5 MB) with weight 99328 (25.53/col)
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, sparse part has weight 99328 (25.53/col)
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, filtering completed in 3 passes
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, matrix is 3477 x 3541 (0.4 MB) with weight 89352 (25.23/col)
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, sparse part has weight 89352 (25.23/col)
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, commencing Lanczos iteration
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, memory use: 0.6 MB
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, lanczos halted after 56 iterations (dim = 3472)
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, recovered 61 nontrivial dependencies
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, prp31 = 1201147059438530786835365194567
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, prp31 = 1212112637077862917192191913841
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, Lanczos elapsed time = 0.0350 seconds.
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, Sqrt elapsed time = 0.0010 seconds.
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, SIQS elapsed time = 1.3373 seconds.
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, 
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, 
+05/28/25 21:39:26 v1.34.5 @ NUCBOX_K8PLUS, Total factoring time = 2.1046 seconds
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, 
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, ****************************
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, Starting factorization of 1455925529734358105461406532259911790807347616464991065301847
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, using pretesting plan: normal
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, no tune info: using qs/gnfs crossover of 95 digits
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, ****************************
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, starting SIQS on c61: 1455925529734358105461406532259911790807347616464991065301847
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, random seeds: 991435347, 821695100
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, ==== sieve params ====
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, n = 61 digits, 201 bits
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, factor base: 3824 primes (max prime = 78623)
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, single large prime cutoff: 4717380 (60 * pmax)
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, using 32k sieve core
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, sieve interval: 4 blocks of size 32768
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, polynomial A has ~ 7 factors
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, using multiplier of 2
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, using SPV correction of 21 bits, starting at offset 35
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, using SSE2 for trial division and x64 sieve scanning
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, using SSE4.1 enabled 32k sieve core
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, using SSE2 for resieving 13-16 bit primes
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, trial factoring cutoff at 67 bits
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, ==== sieving started (1 thread) ====
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, trial division touched 0 sieve locations out of 0
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, 3894 relations found: 1937 full + 1957 from 18370 partial, using 0 polys (-1 A polys)
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, on average, sieving found 1.#J rels/poly and 720822.09 rels/sec
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, trial division touched 0 sieve locations out of 0
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, ==== post processing stage (msieve-1.38) ====
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, begin with 20306 relations
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, reduce to 5591 relations in 2 passes
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, recovered 5591 relations
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, recovered 4187 polynomials
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, freed 3 duplicate relations
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, attempting to build 3890 cycles
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, found 3890 cycles in 1 passes
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, distribution of cycle lengths:
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS,    length 1 : 1937
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS,    length 2 : 1953
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, largest cycle: 2 relations
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, matrix is 3824 x 3890 (0.5 MB) with weight 99328 (25.53/col)
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, sparse part has weight 99328 (25.53/col)
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, filtering completed in 3 passes
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, matrix is 3477 x 3541 (0.4 MB) with weight 89352 (25.23/col)
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, sparse part has weight 89352 (25.23/col)
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, commencing Lanczos iteration
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, memory use: 0.6 MB
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, lanczos halted after 56 iterations (dim = 3472)
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, recovered 61 nontrivial dependencies
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, prp31 = 1201147059438530786835365194567
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, prp31 = 1212112637077862917192191913841
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, Lanczos elapsed time = 0.0340 seconds.
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, Sqrt elapsed time = 0.0020 seconds.
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, SIQS elapsed time = 0.0637 seconds.
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, 
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, 
+05/28/25 21:44:49 v1.34.5 @ NUCBOX_K8PLUS, Total factoring time = 0.0694 seconds
